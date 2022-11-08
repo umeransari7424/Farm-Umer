@@ -1,0 +1,431 @@
+.navbar{
+  button{
+    padding: 10px 18px;
+    background-color: transparent !important;
+    color: #1ddafdFF !important;
+    border : 2px solid #1ddafdFF;
+    font-weight: 700;
+    font-size: 20px;
+    img{
+      fill: #1ddafdFF !important;
+    }
+    &:hover{
+      border: 2px solid #1ddafdFF !important;
+      background-color: #1ddafdFF !important;
+      color: white !important;
+      img{
+        filter: brightness(0) invert(1) !important;
+      }
+      
+
+    }
+    
+  }
+}
+.footer{
+  background-color: black;
+  color: grey;
+  img{
+    filter: grayscale(100%);
+  }
+  .para{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+  }
+  .foot{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.community{
+  h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #1ddafd ;
+ 
+  }
+  .join{
+    font-size: 50px ;
+    font-weight: 700;
+    color: black;
+ 
+  }
+}
+
+.hero{
+  .farm1{
+    h1{
+      font-size: 40px;
+      font-weight: 700;
+    }
+    p{
+      font-size: 20px;
+      font-weight: 600;
+      color: #a5abb3FF;
+    }
+  }
+  .card{
+    border-color: #0054cfFF;
+    // border: 2px;
+    border-width: 2px 5px 9px 2px  !important;
+  
+    .logo{
+      margin-left: 50px;
+    }
+    .balance{
+      margin-right: 70px;
+
+      h3{
+        font-size: 25px;
+        font-weight: 700;
+      }
+      .zero{
+        font-size: 30px;
+        font-weight: 700;
+        color: #0054cfFF;
+      }
+    }
+    .pending{
+      padding-left: 30px;
+      h5{
+        font-weight: 700;
+        font-size: 20px;
+        color: #a5abb3FF;
+        span{
+          color: black;
+        }
+      }
+      
+    }
+    .mracezero{
+      padding-right: 30px;
+      h5{
+        font-size: 20px;
+        font-weight: 700;
+        .mrace{
+          color: #a5abb3FF;
+        }
+      }
+    }
+    .apy{
+      img{
+        margin-top: 5px;
+      }
+      h3{
+        margin-top: 30px;
+        display: flex;
+        // align-items: center;
+        justify-content: center;
+        color: #0054cfFF;
+      }
+    }
+  }
+  .card{   
+    margin-top: 20px;
+    .card2{
+      display: flex;
+      justify-content: space-between;
+      .img1{
+        margin-left: 20px;
+        margin-top: 15px;
+      }
+      .img2{
+        margin-right: 20px;
+        // margin-top: 15px;
+      }
+    }
+    .earn1{
+      display: flex;
+      justify-content: space-between;
+      padding-left: 30px;
+      padding-right: 30px;
+  .earn{
+    h5{
+      
+      font-size: 20px;
+      font-weight: 700;
+      color: #a5abb3FF ;
+    }
+  }
+  .gmt{
+    h5{
+      
+      font-size: 20px;
+      font-weight: 700;
+      color: black;
+    }
+  }
+}
+      .selectbtn{
+        padding: 9px 50px !important;
+        color: #1ddafdFF;
+        font-size: 20px;
+        font-weight: 700;
+        background-color: transparent;
+        border: 2px solid #1ddafdFF;
+        border-radius: 10px;
+        &:hover{
+          background-color: #1ddafdFF !important;
+          color: white !important;
+        }
+      }
+  }
+  
+}
+
+.choose{
+  .pool{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0054cfFF;
+  }
+  .card{
+    border-color: #0054cfFF;
+    // border: 2px;
+    border-width: 2px 5px 9px 2px  !important;
+    .apy{
+      
+      h3{
+        margin-top: 20px;
+        font-size: 25px;
+        font-weight: 700 !important;
+        color: #0054cfFF;
+      }
+    }
+    .deposit{
+      margin-left: 20px;
+
+        h5{
+          color: #a5abb3FF !important;
+          font-size: 20px;
+          font-weight: 650;
+        }
+      
+    }
+    .mrace{
+      margin-right: 20px;
+
+        h5{
+          color: black !important;
+          font-size: 20px;
+          font-weight: 650;
+        }
+      
+    }
+
+    .selectbtn{
+      padding: 10px 60px !important;
+      color: #1ddafdFF;
+      font-size: 20px;
+      font-weight: 700;
+      background-color: transparent;
+      border: 2px solid #1ddafdFF;
+      border-radius: 10px;
+      &:hover{
+        background-color: #1ddafdFF !important;
+        color: white !important;
+      }
+    }
+  }
+
+
+}
+.farmcard{
+  .eth{
+    margin-top: 20px;
+    font-weight: 750;
+    color: #0054cfFF;
+  }
+  .deposit{
+    p{
+      font-size: 20px;
+      font-weight: 600;
+      color: #a5abb3FF;
+    }
+  }
+  .card{
+    border-color: #0054cfFF;
+    // border: 2px;
+    border-width: 2px 5px 9px 2px  !important;
+    img{
+      margin-left: 40px;
+    }
+    .zero{
+      margin-right: 70px;
+      display: flex;
+      align-items: center;
+      color: #0054cfFF;
+    }
+  }
+  .pending{
+    h5{
+
+      margin-left: 50px;
+      font-size: 23px;
+      font-weight: 700;
+      color: #a5abb3FF;
+    }
+  }
+  .selectbtn{
+    margin-right: 60px;
+    padding: 9px 50px !important;
+    color: #1ddafdFF;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: transparent;
+    border: 2px solid #1ddafdFF;
+    border-radius: 10px;
+    &:hover{
+      background-color: #1ddafdFF !important;
+      color: white !important;
+      border: 2px solid #1ddafdFF;
+    }
+  }
+}
+
+
+@media screen and (max-width: 600px){
+  .footer{
+    background-color: black;
+    color: grey;
+    img{
+      filter: grayscale(100%);
+    }
+    .para{
+      display: flex ;
+      align-items: center;
+      justify-content: center;
+    }
+    .foot{
+      
+      display: flex;
+      align-items: center;
+      
+    }
+  }
+  .hero{
+    .farm1{
+      h1{
+        font-size: 40px;
+        font-weight: 700;
+      }
+      p{
+        font-size: 20px;
+        font-weight: 600;
+        color: #a5abb3FF;
+      }
+    }
+    .card{
+      border-color: #0054cfFF;
+    
+      .logo{
+        margin-left: 0px;
+      }
+      .balance{
+        // display: flex;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-right: 10px !important;
+  
+        h3{
+          
+        justify-content: end !important;
+          font-size: 20px;
+          font-weight: 700;
+        }
+        .zero{
+          display: flex;
+          font-size: 30px;
+          font-weight: 700;
+          color: #0054cfFF;
+        }
+      }
+      .pending{
+        padding-left: 10px;
+       
+        h5{
+          font-weight: 600;
+          font-size: 15px;
+          color: #a5abb3FF;
+          span{
+            color: black;
+          }
+        }
+        
+      }
+      .mracezero{
+        padding-right: 10px !important;
+        h5{
+          font-size: 15px;
+          font-weight: 600;
+          .mrace{
+            color: #a5abb3FF;
+          }
+        }
+      }
+      .apy{
+        img{
+          margin-top: 5px;
+        }
+        h3{
+          margin-top: 30px;
+          display: flex;
+          // align-items: center;
+          justify-content: center;
+          color: #0054cfFF;
+        }
+      }
+    }
+    .card{   
+      .card2{
+        // display: block;
+        // align-items: center;
+        .img1{
+          // margin-left: 20px;
+          margin-top: 10px;
+        }
+        .img2{
+        //   margin-left: 30px;
+          // margin-top: 10px;
+        }
+      }
+      .earn1{
+            display: block;
+           
+        .earn{
+          h5{
+            
+            font-size: 20px;
+            font-weight: 700;
+            color: #a5abb3FF ;
+          }
+        }
+        .gmt{
+          h5{
+            
+            font-size: 20px;
+            font-weight: 700;
+            color: black;
+          }
+        }
+      }
+        .selectbtn{
+          padding: 9px 50px !important;
+          color: #1ddafdFF;
+          font-size: 20px;
+          font-weight: 700;
+          background-color: transparent;
+          border: 2px solid #1ddafdFF;
+          border-radius: 10px;
+          &:hover{
+            background-color: #1ddafdFF !important;
+            color: white !important;
+          }
+        }
+    }
+    
+  }
+  
+}

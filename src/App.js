@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './App.scss';
+// import Header from './Components/Layout/Header';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Base from "./Components/Layout/Base";
+// import Farmcard from './Pages/Farmcard';
+import Home from './Pages/Home';
+import Mrace from './Pages/Mrace';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <BrowserRouter>
+        <Base>
+          <Routes>
+            <Route index path="/" element={<Home />} />
+            <Route path="/farmcard" element={<Mrace />} />
+            
+          </Routes>
+        </Base>
+      </BrowserRouter>
     </div>
   );
 }
